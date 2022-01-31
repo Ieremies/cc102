@@ -1,1 +1,28 @@
 #+Title: Intinerário formativo de Computação
+
+Este repositório se destina a consolidar as aulas ministradas no Colégio Elite para o intinerário formativo de Computação.
+
+* Objetivo
+Este curso objetiva transmitir os conceitos básicos de Ciência da Computação para alunos no Ensino Médio, sem pressupor educação formal anterior na área.
+
+* Fontes e inspirações
+
+[[https://studio.code.org/courses?view=teacher][Code.org]] -> [[https://code.org/educate/csp][CS Principles]] (página inicial) / [[https://studio.code.org/courses/csp-2021][curriculo]]
+[[https://csfirst.withgoogle.com/c/cs-first/en/curriculum.html][CS First - Google]]
+[[https://code.org/educate/curriculum/3rd-party][outros]]
+
+[[https://dl-acm-org.ez88.periodicos.capes.gov.br/doi/10.1145/2899415.2925496][Artigo - Teaching High School Students Computational Thinking with Hands-on Activities]]
+
+[[https://www-acm-org.ez88.periodicos.capes.gov.br/education/resources-for-high-school-students][Resources for High School Students - ACM]]
+[[https://edu.google.com/resources/programs/exploring-computational-thinking/][Google for Education: Computational Thinking]]
+
+Este curso é fortemente inspirado no curso de [[https://cs50.harvard.edu/ap/2022/][CS50 AP]] e pelo [[https://cs50.harvard.edu/x/2022/][CS50x 2022]]. Para educadores, [[https://cs50.harvard.edu/x/2022/workshop/][CS50 Educator Workshop 2021 - CS50x 2022]] é uma boa fonte de conhecimento.
+
+A "College Board" traça um bom currículo para a disciplina pré-universitário em [[https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles][AP Computer Science Principles]] e para o curso mais avançado [[https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a][AP Computer Science A]].
+
+Outro recurso importante para instrutores é o site [[https://csteachers.org/][Computer Science Teachers Association]].
+
+
+https://www-acm-org.ez88.periodicos.capes.gov.br/education/curricula-recommendations
+
+[[https://www.sbc.org.br/educacao/diretrizes-para-ensino-de-computacao-na-educacao-basica][Diretrizes para ensino de Computação na Educação Básica]] na SBC.
