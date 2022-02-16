@@ -1,9 +1,8 @@
+* 1º Bimestre
+** Aula 1 - Intro binário
+** Aula 2 - Codificação da informação
 
-
-* Aula 1
-* Aula 2
-
-** Importancia da posição
+*** Importancia da posição
 Vimos na aula passada que podemos codificar números por meio de sinais binários usando o Sistema Binário. Com um grande quantidade de tais bits disponíveis, podemos mapear tais números a caracteres e por tanto armazenar textos. Como no exemplo visto na aula passada, vimos que para enviar a mensagem "OI", usando a codificação da tabela ASCII, temos que enviar os números 79 73. Mas como isso parece em binário?
 
 79 em binário é 1001111 enquanto que 73 é 1001001. Armazenando-os em sequência, teríamos
@@ -21,7 +20,7 @@ enquanto a seguinte deveria ser
 0100010000101011
 |--+---||--+---|
 
-** Expandindo ASCII (ou como codificar mais de byte)
+*** Expandindo ASCII (ou como codificar mais de byte)
 Na época, as pessoas que decidiram isso eram em grande parte norte-americanas e potanto só foi necessário fazê-lo com o alfabeto destes. Hoje, precisamos representar diversos caracteres, com acento, hierogrifos e de diversos alfabetos.
 
 Para isso, o mundo decidiu em usar =UTF-8= (Unicode (or Universal Coded Character Set) Transformation Format – 8-bit). Utilizando de 1 a 4 bytes, ele consegue suportar ASCII e expandir para 1.112.064 caracteres. Lembrando que a tabela ASCII só precisva de 7bits para representar seus 128 caracteres, o que deixava o primeiro bit de um byte sempre como zero. Aproveitando disso, UTF-8 define:
@@ -37,28 +36,28 @@ A quantidade absurdamente grande de caracteres disponíveis nos permite codifica
 
 [[https://unicode-table.com/pt/#0080][Unicode Tabela de caracteres]]
 
-** Cores e imagens
+*** Cores e imagens
 Sabendo o que vimos, como você imagina que podemos armazenar num computador informações sobre uma cor? >> RGB https://en.wikipedia.org/wiki/8-bit_color
 
 Esses formatos definem a quantidade de vermelho verde e azul. Muitas vezes, a quantidade de bits usados não são divisíveis por 3. Neste caso, é comum retirar um bit do azul (já que o olho humano é menos sensível a esta cor) ou adicionar um bit ao verde (que somos mais sensíveis).
 
 Tal codificação usado em grande quantidade pode formar uma imagem, cada pixel usando este código de cor.
 
-** Vídeos
+*** Vídeos
 Sequencia de imagens + som.
-* Aula 3 - Linguagens e interpretador de python
+** Aula 3 - Linguagens e interpretador de python
 Começamos a aula relembrando a nossa estrutura do "Problema", com entrada, saida e "algo no meio" que transforma de uma a outra.
 
 Para preencher esse meio pelo qual a entrada é tranformada na saída, definimos *algoritmos* como uma "sequencia de instruções bem-definidas". Perceba que o conceito de *bem-definida* depende do contexto no qual a instrução é discutida.
 
-** Linguagens de programação
+*** Linguagens de programação
 Como vimos, computadores manjam de binários e com estes podemos representar os números e textos quem compõem as entradas e saídas do nosso programa. Assim, para representarmos nossas instruções, utilizaremos a mesma ideia. Codar em binário não é uma boa ideia, tendo em vista que já foi difícil transformar um número de decimal para binário, imagine várias instruções. Assim, as pessoas decidiram fazer uma linguagem de "mais alto nível" que seja mais fácil de nós humanos entendermos mas que tenha uma grande correspondência com o código binário de máquina. Tais linguagens são chamadas de *assemble*.
 
 Ainda sim, com o passar do tempo, foi-se percebendo que precisariamos de linguagens ainda mais elaboradas e ao mesmo tempo, mais fáceis de lidar/codar. Assim, surgiram linguagens como *C/C++* que, por meio de programas chamados de *compiladores* eram capazes de serem traduzidos (com boa eficiência) para uma linguagem assemble. Perceba que nesse caso, o computador precisa ter acesso ao arquivo inteiro do programa e traduzí-lo na íntegra para binário.
 
 Mais uma vez, as necessidades dos programadores se sofisticaram e surgiu linguagens como *python* que pode alavancar de recursos em *C/C++* traduzindo para ele quando necessário ou utilizando seu *interpretador* que não precisa do arquivo inteiro de uma vez.
 
-** Interpretador de python
+*** Interpretador de python
 #+begin_source python
 3 + 2
 x = 3
@@ -75,125 +74,113 @@ x + 2
 x = x + 2
 #quanto vale x?
 #+end_source
-* Aula
+** Aula
 SCHEDULED: <2022-02-14 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-02-21 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-02-28 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-03-07 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-03-14 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-03-21 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-03-28 seg>
-
-* Aula
+* 2º Bimestre
+** Aula
 SCHEDULED: <2022-04-04 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-04-11 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-04-18 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-04-25 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-05-02 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-05-09 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-05-16 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-05-23 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-05-30 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-06-06 seg>
-
-* Aula
+* 3º Bimestre
+** Aula
 SCHEDULED: <2022-06-13 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-06-20 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-06-27 seg>
 
-* Aula
-SCHEDULED: <2022-07-04 seg>
-
-* Aula
-SCHEDULED: <2022-07-11 seg>
-
-* Aula
-SCHEDULED: <2022-07-18 seg>
-
-* Aula
-SCHEDULED: <2022-07-25 seg>
-
-* Aula
+** Aula
 SCHEDULED: <2022-08-01 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-08-08 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-08-15 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-08-22 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-08-29 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-09-05 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-09-12 seg>
-
-* Aula
+* 4º Bimestre
+** Aula
 SCHEDULED: <2022-09-19 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-09-26 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-10-03 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-10-10 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-10-17 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-10-24 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-10-31 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-11-07 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-11-14 seg>
 
-* Aula
+** Aula
 SCHEDULED: <2022-11-21 seg>

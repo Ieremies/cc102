@@ -1,9 +1,111 @@
 #+Title: Intinerário formativo de Computação
+#+Author: Ieremies Romero
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+options: num:nil
 
 Este repositório se destina a consolidar as aulas ministradas no Colégio Elite para o intinerário formativo de Computação.
 
-* Objetivo
-Este curso objetiva transmitir os conceitos básicos de Ciência da Computação para alunos no Ensino Médio, sem pressupor educação formal anterior na área.
+* Público alvo
+** Pré-requisitos
+Este curso é pensado para alunas de com conhecimentos sólidos de álgebra a nível de Ensino Fundamental. Não é necessário nenhum conhecimento formal prévio em computação.
+
+** Objetivo
+Este curso tem como o objetivo a aprofundar o conhecimento da aluna como cidadã de uma sociedade permeada por tecnologias computacionais. Entendemos que o impacto da área na vida social é tamanho e torna-se então necessário entendermos melhor a forma como esse inpacto é desenvolvido, aplicado e se perpetua.
+
+Para isso, similar como descrito por =College Board=, focaremos em desenvolver as seguintes habilidades e competências:
+- Design de soluções computacionais
+  + Invertigar a situação e contexto
+  + Determinar e desenvolver um método ou abordagem para atingir o objetivo
+  + Avaliar as opções de soluções
+- Desenvolvimento de algoritmos e programas
+  + Representar o processo do algoritmo sem depender de uma linguagem de programação
+  + Inplementar e aplicar algoritmos
+- Abstração no desenvolvimento de programas
+  + Generalizar fontes de dados por meio de variáveis
+  + Controlar a complexidade do programa por meio de abstrações
+- Análise de código
+  + Explicar como um segmento de código funciona
+  + Determinar o resultado de um segmento de código
+  + Identificar e corrigir erros
+- Inovações computacionais
+  + Explicar como a internet funciona
+  + Representar informações a serem apresentadas na internet
+- Computação ética e responsável
+  + Descrever o impacto da computação na sociedade
+  + Avaliar o impacto da coleta de dados e seus fatores éticos
+  + Reconhecer direitos autorais e propriedades intelectuais de outros
+
+* Fontes e inspirações
+O [[https://studio.code.org/courses?view=teacher][code.org]] propõe o curso [[https://code.org/educate/csp][CS Principles]] com o seguinte [[https://docs.google.com/document/d/1myJwrDyRlAjwVNDS3gs-3JaJNhogsGMt9Swo-bpySgE/preview][currículo]]. Além disso, ele lista [[https://code.org/educate/curriculum/3rd-party][outros]] recursos.
+
+O [[https://edu.google.com/intl/ALL_br/][Google for Education]] disponibiliza algumas ferramentas interessantes, com currículos, planos de aula e ferramentar. Dentre estes, destaco [[https://csfirst.withgoogle.com/c/cs-first/en/curriculum.html][CS First]] e [[https://beinternetawesome.withgoogle.com/pt-br_br/][Seja Incrível Na Internet]].
+
+Artigos no assunto:
+[[https://dl-acm-org.ez88.periodicos.capes.gov.br/doi/10.1145/2899415.2925496][- Teaching High School Students Computational Thinking with Hands-on Activities]]
+
+Outro recurso importante para instrutores é o site [[https://csteachers.org/][Computer Science Teachers Association]].
+
+A ACM faz sua recomendação de currículo a nível de graduação no [[https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf][relatório]] enquanto que a SBC descreve as [[https://www.sbc.org.br/educacao/diretrizes-para-ensino-de-computacao-na-educacao-basica][diretrizes para ensino de Computação na Educação Básica]].
+
+** Harvard
+Este curso é fortemente inspirado no curso de [[https://cs50.harvard.edu/ap/2022/][CS50 AP]] e pelo [[https://cs50.harvard.edu/x/2022/][CS50x 2022]]. Para educadores, [[https://cs50.harvard.edu/x/2022/workshop/][CS50 Educator Workshop 2021 - CS50x 2022]] é uma boa fonte de conhecimento.
+
+** College Board
+A "College Board" traça um bom currículo para a disciplina pré-universitário em [[https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles][AP Computer Science Principles]] e para o curso mais avançado [[https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a][AP Computer Science A]].
+
+*** [[https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course-audit][Course Audit]]
+[[https://apcentral.collegeboard.org/pdf/available-ap-daily-videos-ap-computer-science-principles.pdf?course=ap-computer-science-principles]]
+*** [[https://apcentral.collegeboard.org/courses/ap-computer-science-principles/classroom-resources][Classroom Resources]]
+Essa página cita diversos recursos úteis para professores como planos de aulas e currículos. Mais notavelmente, [[https://www.codetra.in/resources][CodeTrain]] segue o currículo proposto pelo College Board e oferece planos de um ou dois anos de curso.
+
+Além disso, há [[https://www.codetra.in/workshops][workshops]] regularmente disponibilizados.
+
+Este curso possui forte inspiração no plano de dois anos disponibilizado em [[https://docs.google.com/document/d/1pnFFm8i9CzrsXJWNoCwiu8OczdI5N0ZaYp9rTou53fU/edit?usp=sharing][CodeTrain Resources - Sumary Doc]].
+* Cronograma
+O curso é planejado para dois anos. No primeiro ano, será apresentado introdução a linguagem de programação (como Python) e às suas estruturas mais comúns. O segundo ano será dedicado a aprofundar em conceitos de algoritmos e estruturas de dados, bem como POO.
+
+O curso será divido em bimestres, cada bimestre com aproximadamente 10 aulas de 50 minutos.
+** 1.1 - Introdução ao ambiente de programação e conceitos iniciais de processamento
+[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.tr9kxlmivusa][Year 1 - Unit 1b]]
+
+CB:Big Idea 2 - Dados
+- 2.1 Números binários
+- 2.3 Extraindo informção de dados
+- 2.4 Usando programas com dados
+
+CB:Big Idea 3 - Algorítmos e programação
+- Variáveis e atribuições
+- Expressões aritméticas
+
+** 1.2 - Condicionais, lógica booleana e funções
+[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.s5660bp34nut][Year 1- Unit 4]]
+
+** 1.3 - A internet e webdesign
+[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.jkoqbqkwz5xd][Year 1 - Unit 3]] - HTML, CSS e terminologia de rede.
+
+CB : Big Idea 4 - Sistemas de computação e rede
+- 4.1 A internet
+  + Domínio e DNS
+  + Roteamento
+- 4.2 Tolerância a falha
+
+** 1.4 - Ética computacional
+[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.191317va9beh][Year 1 - Unit 0]]
+[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.b352z4kmtbsz][Year 1 - Unit 1 (parte final)]]
+
+CB : Big Idea 5 - Impacto da computação
+- 5.1 Efeitos benéficos e maléficos
+- 5.2 Analfabetismo digital
+- 5.4 Crowdsourcing
+- 5.5 Problemas éticos e legais
+
+** 2.1 - Circuitos lógicos e arquitetura de computadores
+[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.uyyqt34z28md][Year 1 - Unit 2]]
+** 2.2 - Algorítmos
+[[https://docs.google.com/document/d/1kfmS2boiui3CSaT0jV7PlFaCPHcSvApcLIxiQUEFMXQ/edit#bookmark=id.lwj32yofv13h][Year 2 - Unit 1]]
+** 2.3 - Estrutura de dados e programação orientada a objetos
+[[https://docs.google.com/document/d/1kfmS2boiui3CSaT0jV7PlFaCPHcSvApcLIxiQUEFMXQ/edit#bookmark=id.6mr0r789vdca][Year 2 - Unit 4]]
+** 2.4 - Java
 * Forma de avaliação
 Os alunos serão avaliados de duas formas:
 
@@ -46,50 +148,3 @@ Para ficar mais clara a distinção, abaixo há uma lista, não extensiva, do qu
 - Usar código disponível em outros meios sem citar fontes.
 - Solicitar diretamente a solução de problemas ou perguntas online ou para terceiros.
 
-* Fontes e inspirações
-O [[https://studio.code.org/courses?view=teacher][code.org]] propõe o curso [[https://code.org/educate/csp][CS Principles]] com o seguinte [[https://docs.google.com/document/d/1myJwrDyRlAjwVNDS3gs-3JaJNhogsGMt9Swo-bpySgE/preview][currículo]]. Além disso, ele lista [[https://code.org/educate/curriculum/3rd-party][outros]] recursos.
-
-O [[https://edu.google.com/intl/ALL_br/][Google for Education]] disponibiliza algumas ferramentas interessantes, com currículos, planos de aula e ferramentar. Dentre estes, destaco [[https://csfirst.withgoogle.com/c/cs-first/en/curriculum.html][CS First]] e [[https://beinternetawesome.withgoogle.com/pt-br_br/][Seja Incrível Na Internet]].
-
-Artigos no assunto:
-[[https://dl-acm-org.ez88.periodicos.capes.gov.br/doi/10.1145/2899415.2925496][- Teaching High School Students Computational Thinking with Hands-on Activities]]
-
-Outro recurso importante para instrutores é o site [[https://csteachers.org/][Computer Science Teachers Association]].
-
-A ACM faz sua recomendação de currículo a nível de graduação no [[https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf][relatório]] enquanto que a SBC descreve as [[https://www.sbc.org.br/educacao/diretrizes-para-ensino-de-computacao-na-educacao-basica][diretrizes para ensino de Computação na Educação Básica]].
-
-** Harvard
-Este curso é fortemente inspirado no curso de [[https://cs50.harvard.edu/ap/2022/][CS50 AP]] e pelo [[https://cs50.harvard.edu/x/2022/][CS50x 2022]]. Para educadores, [[https://cs50.harvard.edu/x/2022/workshop/][CS50 Educator Workshop 2021 - CS50x 2022]] é uma boa fonte de conhecimento.
-
-** College Board
-A "College Board" traça um bom currículo para a disciplina pré-universitário em [[https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles][AP Computer Science Principles]] e para o curso mais avançado [[https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a][AP Computer Science A]].
-
-*** [[https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course-audit][Course Audit]]
-[[https://apcentral.collegeboard.org/pdf/available-ap-daily-videos-ap-computer-science-principles.pdf?course=ap-computer-science-principles]]
-*** [[https://apcentral.collegeboard.org/courses/ap-computer-science-principles/classroom-resources][Classroom Resources]]
-Essa página cita diversos recursos úteis para professores como planos de aulas e currículos. Mais notavelmente, [[https://www.codetra.in/resources][CodeTrain]] segue o currículo proposto pelo College Board e oferece planos de um ou dois anos de curso.
-
-Além disso, há [[https://www.codetra.in/workshops][workshops]] regularmente disponibilizados.
-
-Este curso possui forte inspiração no plano de dois anos disponibilizado em [[https://docs.google.com/document/d/1pnFFm8i9CzrsXJWNoCwiu8OczdI5N0ZaYp9rTou53fU/edit?usp=sharing][CodeTrain Resources - Sumary Doc]].
-* Cronograma
-O curso é planejado para dois anos. No primeiro ano, será apresentado introdução a linguagem de programação (como Python) e às suas estruturas mais comúns. O segundo ano será dedicado a aprofundar em conceitos de algoritmos e estruturas de dados, bem como POO.
-
-O curso será divido em bimestres, cada bimestre com aproximadamente 10 aulas de 50 minutos.
-** 1.1 - Introdução ao ambiente de programação e conceitos iniciais de processamento
-[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.tr9kxlmivusa][Year 1 - Unit 1b]]
-** 1.2 - Condicionais, lógica booleana e funções
-[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.s5660bp34nut][Year 1- Unit 4]]
-** 1.3 - A internet e webdesign
-HTML, CSS e terminologia de rede.
-[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.jkoqbqkwz5xd][Year 1 - Unit 3]]
-** 1.4 - Ética computacional
-[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.191317va9beh][Year 1 - Unit 0]]
-[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.b352z4kmtbsz][Year 1 - Unit 1 (parte final)]]
-** 2.1 - Circuitos lógicos e arquitetura de computadores
-[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.uyyqt34z28md][Year 1 - Unit 2]]
-** 2.2 - Algorítmos
-[[https://docs.google.com/document/d/1kfmS2boiui3CSaT0jV7PlFaCPHcSvApcLIxiQUEFMXQ/edit#bookmark=id.lwj32yofv13h][Year 2 - Unit 1]]
-** 2.3 - Estrutura de dados e programação orientada a objetos
-[[https://docs.google.com/document/d/1kfmS2boiui3CSaT0jV7PlFaCPHcSvApcLIxiQUEFMXQ/edit#bookmark=id.6mr0r789vdca][Year 2 - Unit 4]]
-** 2.4 - Java
