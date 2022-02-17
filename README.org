@@ -61,6 +61,24 @@ Essa página cita diversos recursos úteis para professores como planos de aulas
 Além disso, há [[https://www.codetra.in/workshops][workshops]] regularmente disponibilizados.
 
 Este curso possui forte inspiração no plano de dois anos disponibilizado em [[https://docs.google.com/document/d/1pnFFm8i9CzrsXJWNoCwiu8OczdI5N0ZaYp9rTou53fU/edit?usp=sharing][CodeTrain Resources - Sumary Doc]].
+** TODO Fontes do prof Elier
+Curso da Khan Academy:
+https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/a/learning-programming-on-khan-academy
+
+Programa do COTUCA:
+https://cotuca.unicamp.br/cotuca/wp-content/uploads/2020/02/Catalogo-COTUCA-2020.pdf (página 92)
+
+Resumo do programa do COTUCA:
+https://cotuca.unicamp.br/cotuca/cursos-tecnicos/desenvolvimento-de-sistemas/
+
+Scratch no Ensino de programação para o Ensino Médio:
+https://www.br-ie.org/pub/index.php/rbie/article/view/2364
+
+Trabalho sobre a preparação de estudantes de Ensino Médio para a OBI:
+http://www.prac.ufpb.br/enex/trabalhos/4CIDIPROBEX2013548.pdf
+
+Informações sobre a OBI:
+https://olimpiada.ic.unicamp.br/info/ementa/
 * Cronograma
 O curso é planejado para dois anos. No primeiro ano, será apresentado introdução a linguagem de programação (como Python) e às suas estruturas mais comúns. O segundo ano será dedicado a aprofundar em conceitos de algoritmos e estruturas de dados, bem como POO.
 
@@ -69,43 +87,72 @@ O curso será divido em bimestres, cada bimestre com aproximadamente 10 aulas de
 [[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.tr9kxlmivusa][Year 1 - Unit 1b]]
 
 CB:Big Idea 2 - Dados
-- 2.1 Números binários
-- 2.3 Extraindo informção de dados
-- 2.4 Usando programas com dados
+- Números binários
+- Extraindo informção de dados
+- Usando programas com dados
 
 CB:Big Idea 3 - Algorítmos e programação
 - Variáveis e atribuições
 - Expressões aritméticas
+- Strings
 
 ** 1.2 - Condicionais, lógica booleana e funções
 [[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.s5660bp34nut][Year 1- Unit 4]]
 
-** 1.3 - A internet e webdesign
+CB: Big Idea 3 - Algoritmos e programação
+- Expressões booleanas
+- Condicionais
+- Iteração
+- Listas
+- Chamando funções
+- Desenvolvendo funções
+
+** 1.3-4a - A internet e webdesign
 [[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.jkoqbqkwz5xd][Year 1 - Unit 3]] - HTML, CSS e terminologia de rede.
 
 CB : Big Idea 4 - Sistemas de computação e rede
-- 4.1 A internet
+- A internet
+  + História e conceitos básicos
   + Domínio e DNS
   + Roteamento
-- 4.2 Tolerância a falha
+- Tolerância a falha
+- Criptografia e chaves públicas
 
-** 1.4 - Ética computacional
+Sobre HTML e CSS:
+- Estrutura de arquivos e diretórios
+- Conteiners
+- Header styles
+- Links e imagens
+
+** 1.3-4b - Ética computacional
 [[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.191317va9beh][Year 1 - Unit 0]]
 [[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.b352z4kmtbsz][Year 1 - Unit 1 (parte final)]]
 
 CB : Big Idea 5 - Impacto da computação
-- 5.1 Efeitos benéficos e maléficos
-- 5.2 Analfabetismo digital
-- 5.4 Crowdsourcing
-- 5.5 Problemas éticos e legais
+- Efeitos benéficos e maléficos
+- Analfabetismo digital
+- Crowdsourcing
+- Problemas éticos e legais
 
-** 2.1 - Circuitos lógicos e arquitetura de computadores
-[[https://docs.google.com/document/d/1yTNqWUgiZx1KLVRyQQOxdxpo82MHbw0VGMOiiUffrhw/edit#bookmark=id.uyyqt34z28md][Year 1 - Unit 2]]
-** 2.2 - Algorítmos
+** 2.1 - Algorítmos
 [[https://docs.google.com/document/d/1kfmS2boiui3CSaT0jV7PlFaCPHcSvApcLIxiQUEFMXQ/edit#bookmark=id.lwj32yofv13h][Year 2 - Unit 1]]
-** 2.3 - Estrutura de dados e programação orientada a objetos
-[[https://docs.google.com/document/d/1kfmS2boiui3CSaT0jV7PlFaCPHcSvApcLIxiQUEFMXQ/edit#bookmark=id.6mr0r789vdca][Year 2 - Unit 4]]
-** 2.4 - Java
+
+CB: Big Idea 3 - Algoritmos e programação
+- Desenvolvendo algorítmos
+- Busca binária
+- Bibliotecas
+- Eficiência de algorítmos
+- Valores aleatórios
+- Simulações
+- Problemas não decidíveis
+** 2.2 - OBI 1
+** 2.3 - OBI 2 + Estrutura de dados
+** 2.4 - Programação orientada a objetos
+Estruturas de dados:
+- Filas
+- Pilhas
+
+Programação orientada a objetos.
 * Forma de avaliação
 Os alunos serão avaliados de duas formas:
 
@@ -122,15 +169,12 @@ Após correção automática na plataforma, o professor irá fazer a correção 
 
 O aluno possui o prazo de 7 dias a partir da divulgação das notas para entrar em contato com o professor para questionar as deduções manuais.
 
-** Questionários teóricos
-Para conteúdos teóricos discutidos em sala de aula, será esperado que o aluno responda um questionário disponibilizado pelo professor via Google Forms.
-
 ** Prazos e dúvidas
 O prazo de realização das atividades será de uma semana e é esperado que o aluno dedique em média uma hora para sua realização em casa.
 
 Tendo em vista a natureza semanal do nosso curso, o professor se coloca disponível para tirar dúvidas referentes aos exercícios ou testes antes do horário de aula (14:00 - 14:30) e após (17:10 - 17:40) ás segundas-feiras ou por email (ieremies@gmail.com), este com o prazo de resposta de um dia útil.
 
-Além disso, para os projetos na plataforma repl.it, há a possibilidade do aluno criar uma "Thread" selecionando a parte relevante do código e marcando "@ieremies".
+Além disso, para os projetos na plataforma repl.it, há a possibilidade do aluno criar uma "Thread" selecionando a parte relevante do código e marcando "@IeremiesVieira".
 
 ** Originalidade e plágio
 É esperado que o aluno pesquise em outras fontes e discuta com seus colegas sobre a disciplina e atividades. Contudo, as atividades são individuais e não será permitido colaboração entre os alunos na resulução destas.
@@ -143,8 +187,9 @@ Para ficar mais clara a distinção, abaixo há uma lista, não extensiva, do qu
 - Ajudar colegas a acharem bugs.
 - Encorporar fragmentos de códigos disponíveis online, desde que não constituam parte significativa da atividade e a fonte seja creditada por meio de comentários no código.
 - Discussão e compatilhamento de pseudo-código ou diagramas sobre as atividades com colegas.
+
 *** Não permitido
 - Compartilhar seu código ou resolução de questões na íntegra com colegas.
 - Usar código disponível em outros meios sem citar fontes.
 - Solicitar diretamente a solução de problemas ou perguntas online ou para terceiros.
-
+- Utilizar segmentos de códigos de terceiros que resolvam o objetivo central da atividade ou que seja parte significativa.
